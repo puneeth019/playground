@@ -1,8 +1,9 @@
 #Use this script as a template to start any random script
 
-load_pacakges <- c("dplyr", "stringr", "rvest", "RColorBrewer",
-                   "wordcloud", "tm", "twitteR", "httr", 
-                   "devtools","base64enc")
+load_pacakges <- c("dplyr", "tidyr", "readr", "stringr",
+                   "magrittr", "ggplot2", "rvest", "lubridate", 
+                   "rlist", "caret", "broom")
+
 lapply(load_pacakges, require, character.only = TRUE)
   # Load Packages
 
