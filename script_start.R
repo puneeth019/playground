@@ -3,10 +3,9 @@
 load_pacakges <- c("dplyr", "tidyr", "readr", "stringr",
                    "magrittr", "ggplot2", "rvest", "lubridate", 
                    "rlist", "caret", "broom")
-
 lapply(load_pacakges, require, character.only = TRUE)
   # Load Packages
 
-WorkDir <- "~/DA/Projects/twitteR_scrape/"
+WorkDir <- "C:/DA/Projects/"
 setwd(dir = WorkDir)
   # Set Working Directory
